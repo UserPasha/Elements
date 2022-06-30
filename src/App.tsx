@@ -1,13 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {ThreeDMenu} from "./Elements/ThreeDMenu/ThreeDMenu";
+import EarthAndMoonWithoutImg from "./Elements/EarthAndMoonWithoutImg/EarthAndMoonWithoutImg";
+import Loader from "./Elements/Loader/Loader";
+
+
 
 function App() {
-  return (
-    <div>
-     ELEMENTS
-    </div>
-  );
+//   NEED FIX ThreeDMenu
+//   NEED FIX ThreeDMenu(scaling)
+
+    return (<>
+
+        {/*<ThreeDMenu/>*/}
+        {/*<EarthAndMoonWithoutImg/>*/}
+        <Loader/>
+
+    </>)
 }
 
 export default App;
+
+
