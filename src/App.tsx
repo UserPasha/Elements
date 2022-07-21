@@ -5,6 +5,7 @@ import EarthAndMoonWithoutImg from "./Elements/EarthAndMoonWithoutImg/EarthAndMo
 import Loader from "./Elements/Loader/Loader";
 import TextWithStripe from "./Elements/TextWithStripe/TextWithStripe";
 import ChangingCircles from "./Elements/ChangingCircles/ChangingCircles";
+import FormWithBottomString from "./Elements/FormWithBottomString/FormWithBottomString";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Loader/>
         <TextWithStripe/>
         <ChangingCircles/>
+        <FormWithBottomString/>
     </>)
 }
 
