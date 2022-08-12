@@ -6,6 +6,7 @@ import Loader from "./Elements/Loader/Loader";
 import TextWithStripe from "./Elements/TextWithStripe/TextWithStripe";
 import ChangingCircles from "./Elements/ChangingCircles/ChangingCircles";
 import FormWithBottomString from "./Elements/FormWithBottomString/FormWithBottomString";
+import ParallaxFromPicture from "./Elements/ParallaxFromPicture/ParallaxFromPicture";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <TextWithStripe/>
         <ChangingCircles/>
         <FormWithBottomString/>
+        <ParallaxFromPicture/>
     </>)
 }
 
