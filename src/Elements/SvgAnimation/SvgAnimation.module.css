@@ -1,0 +1,17 @@
+.box{
+    width: 600px;
+    height: 600px;
+    background-color: yellow;
+}
+.box path{
+    stroke: blue;
+    stroke-width: 6;
+    stroke-dasharray: 7800;
+    stroke-dashoffset: 7800;
+    animation: draw 10s linear forwards;
+}
+@keyframes draw{
+    100%{
+        stroke-dashoffset: 0;
+    }
+}

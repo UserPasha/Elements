@@ -7,6 +7,7 @@ import TextWithStripe from "./Elements/TextWithStripe/TextWithStripe";
 import ChangingCircles from "./Elements/ChangingCircles/ChangingCircles";
 import FormWithBottomString from "./Elements/FormWithBottomString/FormWithBottomString";
 import ParallaxFromPicture from "./Elements/ParallaxFromPicture/ParallaxFromPicture";
+import SvgAnimation from "./Elements/SvgAnimation/SvgAnimation";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <ChangingCircles/>
         <FormWithBottomString/>
         <ParallaxFromPicture/>
+        <SvgAnimation/>
     </>)
 }
 
